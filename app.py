@@ -3,7 +3,7 @@ from json import loads
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-with open('model.json', 'r') as f:
+with open('/data/model.json', 'r') as f:
   content = f.read()
   model = loads(content)
 
@@ -28,4 +28,4 @@ def hello_world():
 
 
 if __name__ == "__main__":
-  app.run()
+  app.run(host="0.0.0.0")
