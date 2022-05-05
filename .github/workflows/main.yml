@@ -27,8 +27,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: manu.dscientist@gmail.com
-          password: ${{hiQzax-2wucbe-sicruf}}
+          username: secrets.emmanuelmendy
+          password: ${{secrets.hiQzax-2wucbe-sicruf}}
       
       - name: Set outputs
         id: vars
