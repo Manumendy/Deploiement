@@ -27,7 +27,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          registry: private-registry-url
+          
           username: ${{secrets.emmanuelmendy}}
           password: ${{secrets.hiQzax-2wucbe-sicruf}}
       
