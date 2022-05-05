@@ -28,7 +28,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: secrets.emmanuelmendy
-          password: ${{secrets.hiQzax-2wucbe-sicruf}}
+          password: ${{secrets.VALUE ACTION SECRET}}
       
       - name: Set outputs
         id: vars
