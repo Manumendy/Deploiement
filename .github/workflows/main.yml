@@ -45,7 +45,7 @@ jobs:
           context: .
           # Note: tags has to be all lower-case
           #tags: soootaleb/hetic-data:${{ steps.vars.outputs.sha_short }}
-          tags: emmanuelmendy/DATA:${{ steps.vars.outputs.sha_short }}
+          tags: emmanuelmendy/data-hetic:${{ steps.vars.outputs.sha_short }}
           # build on feature branches, push only on main branch
           push: true # ${{ github.ref == 'refs/heads/main' }}
 
